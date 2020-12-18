@@ -1,4 +1,4 @@
-package Studying;
+package Array_reverse;
 
 public class Main {
 
@@ -9,9 +9,7 @@ public class Main {
         for(int i=0;i<a.length;i++)
             System.out.print(a[i] + "  ");
 
-        System.out.println();
-
-        System.out.println("Обратный порядок:");
+        System.out.println("\n" + "Обратный порядок:");
         for(int i=a.length-1;i>=0;i--)
             System.out.print(a[i] + "  ");
 
